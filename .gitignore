@@ -1,0 +1,14 @@
+Experiments/
+logs/
+wandb/
+pareto_models/
+*.log
+*.tab
+*.pyc
+*.csv
+results_metrics.csv
+results_userswithNproducts.csv
+trained_models/
+__pycache__/
+.vscode/
+data/
