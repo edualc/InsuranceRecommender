@@ -28,7 +28,7 @@ import wandb
 
 # Max number of interactions per evaluation chunk
 # (~= dense matrix dimensions)
-NUMPY_ARRAY_CHUNKING_LIMIT = 2 ** 20
+NUMPY_ARRAY_CHUNKING_LIMIT = 2 ** 18
 DEBUG = False
 
 DATASET_LOCATIONS = {
