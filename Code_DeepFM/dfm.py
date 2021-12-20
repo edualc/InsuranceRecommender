@@ -155,8 +155,8 @@ def run_dfm(train, test, prices, args):
 
     if not DEBUG:
         wandb.init(
-            project="zhaw_nquest_DeepFM",
-            entity="lehl",
+            project="XXX",
+            entity="XXX",
             group=wandb_group_name,
             name=wandb_run_name,
             config=wandb_config
@@ -219,8 +219,6 @@ def run_dfm(train, test, prices, args):
             f_d = model._get_feed_dict(u, i, si, dv, label, False)
             test_loss, _ = model.sess.run([model.loss, model.training_op], f_d)
             test_losses.append(test_loss)
-
-
 
         wandb.log({'train_loss': np.sum(train_losses), 'test_loss': np.sum(test_losses)}, commit=False)
 

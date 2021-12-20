@@ -153,8 +153,8 @@ def run_ncf(train, test, prices, args):
 
     if not DEBUG:
         wandb.init(
-            project="zhaw_nquest_NCF",
-            entity="lehl",
+            project="XXX",
+            entity="XXX",
             group=wandb_group_name,
             name=wandb_run_name,
             config=wandb_config
