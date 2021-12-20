@@ -13,17 +13,17 @@ This repository includes the code base used in the paper "Evaluation of Algorith
 
 ### Algorithm Implementations
 - **Alternating Least Squares (ALS)**
-Based on the ALS Implementation of [LibRecommender](https://github.com/massquantity/LibRecommender/blob/master/libreco/algorithms/als.py).
+based on the ALS implementation of [LibRecommender](https://github.com/massquantity/LibRecommender/blob/master/libreco/algorithms/als.py).
 - **DeepFM**
-Based on the DeepFM Implementation of [LibRecommender](https://github.com/massquantity/LibRecommender/blob/master/libreco/algorithms/deepfm.py).
+based on the DeepFM implementation of [LibRecommender](https://github.com/massquantity/LibRecommender/blob/master/libreco/algorithms/deepfm.py).
 - **Joint Collaborative Autoencoder (JCA)**
-Based on the JCA Implementation of [Ziwei Zhu](https://github.com/Zziwei/Joint-Collaborative-Autoencoder) (Original Paper Implementation).
+based on the JCA implementation of [Ziwei Zhu](https://github.com/Zziwei/Joint-Collaborative-Autoencoder) (original paper implementation).
 - **Neural Collaborative Filtering (NCF)**
-Based on the NCF/NeuMF Implementation of [LibRecommender](https://github.com/massquantity/LibRecommender/blob/master/libreco/algorithms/ncf.py).
+based on the NCF/NeuMF implementation of [LibRecommender](https://github.com/massquantity/LibRecommender/blob/master/libreco/algorithms/ncf.py).
 - **Popularity**
-Implemented ourselves.
+implemented ourselves.
 - **Singular Value Decomposition (SVD++)**
-Based on the SVD++ Implementation of [LibRecommender](https://github.com/massquantity/LibRecommender/blob/master/libreco/algorithms/svdpp.py)
+based on the SVD++ implementation of [LibRecommender](https://github.com/massquantity/LibRecommender/blob/master/libreco/algorithms/svdpp.py)
 
 ### MovieLens1M-Max5 and -Min6
 The modified versions of the popular MovieLens1M dataset (and data splits used in the paper mentioned above) can be found here: https://drive.switch.ch/index.php/s/DuAbnp69AUyjA8w
