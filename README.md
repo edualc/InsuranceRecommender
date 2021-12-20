@@ -24,3 +24,6 @@ Based on the NCF/NeuMF Implementation of [LibRecommender](https://github.com/mas
 Implemented ourselves.
 - **Singular Value Decomposition (SVD++)**
 Based on the SVD++ Implementation of [LibRecommender](https://github.com/massquantity/LibRecommender/blob/master/libreco/algorithms/svdpp.py)
+
+### MovieLens1M-Max5 and -Min6
+The modified versions of the popular MovieLens1M dataset (and data splits used in the paper mentioned above) can be found here: https://drive.switch.ch/index.php/s/DuAbnp69AUyjA8w
