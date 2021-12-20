@@ -1,3 +1,4 @@
+
 # InsuranceRecommender
 
 This repository includes the code base used in the paper "Evaluation of Algorithms for Interaction-Sparse Recommendations: Neural Networks don't Always Win", currently under review.
@@ -10,8 +11,16 @@ This repository includes the code base used in the paper "Evaluation of Algorith
 * Abraham Bernstein; University of Zurich; Zurich, Switzerland; [bernstein@ifi.uzh.ch](bernstein@ifi.uzh.ch)
 * Kurt Stockinger; Zurich University of Applied Sciences; Winterthur, Switzerland; [kurt.stockinger@zhaw.ch](kurt.stockinger@zhaw.ch)
 
-### Movielens1M Subsampled
-
-The modified versions of the popular MovieLens1M dataset (and data splits used in the paper mentioned above) are located here:
-[https://drive.switch.ch/index.php/s/DuAbnp69AUyjA8w](https://drive.switch.ch/index.php/s/DuAbnp69AUyjA8w)
-
+### Algorithm Implementations
+- **Alternating Least Squares (ALS)**
+Based on the ALS Implementation of [LibRecommender](https://github.com/massquantity/LibRecommender/blob/master/libreco/algorithms/als.py).
+- **DeepFM**
+Based on the DeepFM Implementation of [LibRecommender](https://github.com/massquantity/LibRecommender/blob/master/libreco/algorithms/deepfm.py).
+- **Joint Collaborative Autoencoder (JCA)**
+Based on the JCA Implementation of [Ziwei Zhu](https://github.com/Zziwei/Joint-Collaborative-Autoencoder) (Original Paper Implementation).
+- **Neural Collaborative Filtering (NCF)**
+Based on the NCF/NeuMF Implementation of [LibRecommender](https://github.com/massquantity/LibRecommender/blob/master/libreco/algorithms/ncf.py).
+- **Popularity**
+Implemented ourselves.
+- **Singular Value Decomposition (SVD++)**
+Based on the SVD++ Implementation of [LibRecommender](https://github.com/massquantity/LibRecommender/blob/master/libreco/algorithms/svdpp.py)
