@@ -8,6 +8,7 @@ import wandb
 
 def wandb_timing(func):
     def wrapper(*args, **kwargs):
+        print("in wandb_timing")
         t1 = time.time()
         res = func(*args, **kwargs)
         t2 = time.time()
@@ -34,6 +35,7 @@ def wandb_timing(func):
 
 def wandb_timing__end_epoch(func):
     def wrapper(*args, **kwargs):
+        print("in wandb_timing end epoch")
         t1 = time.time()
         res = func(*args, **kwargs)
         t2 = time.time()
@@ -60,5 +62,8 @@ def wandb_log(my_dict, commit=False):
         wandb_dict = {'current_epoch': wandb.run.summary['current_epoch']}
     else:
         wandb_dict = {'current_epoch': 1}
-
-    wandb.log(dict(wandb_dict, **my_dict), commit=commit)
+    try:
+        wandb.log(dict(wandb_dict, **my_dict), commit=commit)
+        wandb.run.summary['current_epoch'] += 1
+    except Exception as e:
+        import code; code.interact(local=dict(globals(), **locals()))

@@ -218,7 +218,7 @@ def run_ncf(train, test, prices, args):
             regular_prediction = predict(model, indices_in_chunk)
 
             # Generate Cold Start using AVERAGE Prediction in accordance to LibReco:
-            # https://github.com/massquantity/LibRecommender/blob/master/libreco/algorithms/svdpp.py#L182
+            # https://github.com/massquantity/LibRecommender/blob/master/libreco/algorithms/ncf.py#L189
             # 
             cold_start_prediction = predict(model, np.repeat(data_info.n_users, cold_start_users.shape[0]))
 
