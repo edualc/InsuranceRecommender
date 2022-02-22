@@ -7,7 +7,7 @@ This repository includes the code base used in the paper "Evaluation of Algorith
 
 
 ### Authors
-* Yasamin Klingler; Zurich University of Applied Sciences; Winterthur, Switzerland; [yasamin.klingler@zhaw.ch](yasamin.klingler@zhaw.ch)
+* Yasamin Klingler; Zurich University of Applied Sciences; Winterthur, Switzerland; [yasamin.klingler@gmail.com](yasamin.klingler@gmail.com)
 * Claude Lehmann; Zurich University of Applied Sciences; Winterthur, Switzerland; [claude.lehmann@zhaw.ch](claude.lehmann@zhaw.ch)
 * João Pedro Monteiro; Veezoo AG; Zurich, Switzerland; [jp@veezoo.com](jp@veezoo.com)
 * Carlo Saladin; Veezoo AG; Zurich, Switzerland; [carlo@veezoo.com](carlo@veezoo.com)
