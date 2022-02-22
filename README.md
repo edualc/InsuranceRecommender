@@ -1,7 +1,7 @@
 
 # InsuranceRecommender
 
-This repository includes the code base used in the paper "Evaluation of Algorithms for Interaction-Sparse Recommendations: Neural Networks don't Always Win", accepted at EDBT 2022. Please us the following text to cite our work:
+This repository includes the code base used in the paper "Evaluation of Algorithms for Interaction-Sparse Recommendations: Neural Networks don't Always Win", accepted at EDBT 2022. Please use the following text to cite our work:
 
 > Yasamin Klingler, Claude Lehmann, João Pedro Monteiro, Carlo Saladin, Abraham Bernstein, and Kurt Stockinger. 2022. Evaluation of Algorithms for Interaction-Sparse Recommendations: Neural Networks don’t Always Win. In *International Conference on Extending Database Technology* (EDBT).
 
